@@ -43,7 +43,7 @@ jobs:
         uses: Azure/static-web-apps-deploy@v1
 
         env:
-          NEXT_PUBLIC_NUTRITION_API_URL: ${{ secrets.NEXT_PUBLIC_NUTRITION_API_URL }}
+          NEXT_PUBLIC_NUTRITION_API_URL: ${{ secrets.NEXT_PUBLIC_API_URL }}
 
         with:
           azure_static_web_apps_api_token: ${{secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_RED_COAST_0B8574B10 }}
