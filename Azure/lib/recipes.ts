@@ -9,7 +9,6 @@ export type Recipe = {
   carbohydrates: number;
   fat: number;
 };
-
 export type RecipesResponse = {
   success: boolean;
   page: number;
@@ -45,6 +44,5 @@ export async function fetchRecipes({
   if (!response.ok) {
     throw new Error("Failed to load recipes");
   }
-
   return (await response.json()) as RecipesResponse;
 }
