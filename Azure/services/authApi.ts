@@ -5,7 +5,7 @@ import {
   RegisterRequest,
 } from "@/types/auth";
 const API_URL =
-  process.env.NEXT_PUBLIC_API_URL || "http://localhost:7071/api";
+  process.env.NEXT_PUBLIC_API_URL || "https://project-3-fzaefje6dge3c7gq.canadacentral-01.azurewebsites.net/api";
 
 async function handleResponse(
   response: Response
