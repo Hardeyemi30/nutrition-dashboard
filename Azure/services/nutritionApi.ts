@@ -5,7 +5,7 @@ import type {
 
 const API_BASE_URL =
   process.env.NEXT_PUBLIC_API_BASE_URL ||
-  "https://project-3-fzaefje6dge3c7gq.canadacentral-01.azurewebsites.net";
+  "https://project-3-fzaefje6dge3c7gq.canadacentral-01.azurewebsites.net/api";
 
 export interface NutritionAnalysisResponse {
   data: NutritionAnalysis;
