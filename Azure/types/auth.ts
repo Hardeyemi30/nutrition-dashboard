@@ -3,6 +3,7 @@ export interface User {
   name: string;
   email: string;
   provider?: "local" | "google";
+  token?: string;
 }
 
 export interface LoginRequest {
