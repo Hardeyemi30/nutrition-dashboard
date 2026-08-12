@@ -270,10 +270,10 @@ export function AuthProvider({
         credential,
       });
     const token =
-      response.token || 
+      response.token ?? 
       response.user?.token;
     if (
-      !response.token ||
+      !token ||
       !response.user
     ) {
       console.error(
@@ -287,7 +287,7 @@ export function AuthProvider({
     }
 
     saveSession(
-      response.token,
+      token,
       response.user
     );
   }
