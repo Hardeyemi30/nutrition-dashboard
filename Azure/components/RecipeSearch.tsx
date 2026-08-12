@@ -196,7 +196,7 @@ export default function RecipeSearch() {
                   event.target.value
                 )
               }
-              className="w-full rounded-lg border border-gray-300 bg-white px-4 py-2.5 text-sm outline-none transition focus:border-gray-500"
+              className="w-full text-black rounded-lg border border-gray-300 bg-white px-4 py-2.5 text-sm outline-none transition focus:border-gray-500"
             >
               {DIET_TYPES.map((type) => (
                 <option
