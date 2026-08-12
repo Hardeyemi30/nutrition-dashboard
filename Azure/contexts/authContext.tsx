@@ -287,7 +287,7 @@ export function AuthProvider({
     }
 
     saveSession(
-      token,
+      response.token,
       response.user
     );
   }
