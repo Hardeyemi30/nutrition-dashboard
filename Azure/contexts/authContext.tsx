@@ -8,13 +8,11 @@ import {
   useEffect,
   useState,
 } from "react";
-
 import {
   loginUser,
   loginWithGoogle,
   registerUser,
 } from "@/services/authApi";
-
 import type {
   LoginRequest,
   RegisterRequest,
