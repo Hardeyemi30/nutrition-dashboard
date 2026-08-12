@@ -174,7 +174,7 @@ export default function RecipeSearch() {
                 )
               }
               placeholder="e.g. chicken"
-              className="w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm outline-none transition focus:border-gray-500"
+              className="w-full rounded-lg text-black border border-gray-300 px-4 py-2.5 text-sm outline-none transition focus:border-gray-500"
             />
           </div>
 
