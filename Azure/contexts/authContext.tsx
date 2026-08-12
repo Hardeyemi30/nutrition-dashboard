@@ -269,7 +269,9 @@ export function AuthProvider({
       await loginWithGoogle({
         credential,
       });
-
+    const token =
+      response.token || 
+      response.user?.token;
     if (
       !response.token ||
       !response.user
@@ -285,7 +287,7 @@ export function AuthProvider({
     }
 
     saveSession(
-      response.token,
+      token,
       response.user
     );
   }
